@@ -31,7 +31,6 @@ def Mediana():
     Ord.insert(0,Mayor)
     g=0
     Mediana=0
-    Moda=[]
     Inicio=0
     while (e>g):
 
@@ -46,11 +45,7 @@ def Mediana():
             else:
                 Ord.insert(0,con)
         
-        if(contador>Inicio):
-            
-            Moda.insert(0,con)
-        else:
-            Moda=Moda
+
             
     if(g%2==0):
         g=(g/2)-1;
@@ -62,7 +57,13 @@ def Mediana():
     print("El orden es: "+str(Ord))
     print("La mediana: "+str(Mediana))
     
-    print("La Moda es: "+str(Moda))
+def Moda():
+    for hola in d:
+        hola
+
+
+
 
 Media()
 Mediana()
+Moda()
